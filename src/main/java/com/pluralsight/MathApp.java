@@ -14,11 +14,11 @@ public class MathApp {
 // Step 1
 
 // Question 1:
-// Create two variables to represent the salary for Bob and Gary, name them
-// bobSalary and garySalary. Create a new variable named
-// highestSalary. Determine which salary is greater using Math.max() and
-// store the answer in highestSalary.  Set the initial salary variables to any value
-// you want. Print the answer (i.e "The highest salary is …")
+// Create two variables to represent the salary for Bob and Gary, name them bobSalary and garySalary.
+// Create a new variable named highestSalary.
+// Determine which salary is greater using Math.max() and store the answer in highestSalary.
+// Set the initial salary variables to any value you want.
+// Print the answer (i.e "The highest salary is …")
     double bobSalary = 65000.00;
     double garySalary = 72000.00;
     double highestSalary = Math.max( bobSalary,garySalary);
@@ -26,8 +26,8 @@ public class MathApp {
     System.out.println("The highest salary is $" + df.format(highestSalary) + ".");
 
 // Question 2:
-// Find and display the smallest of two variables named carPrice and
-// truckPrice.  Set the variables to any value you want.
+// Find and display the smallest of two variables named carPrice and truckPrice.
+// Set the variables to any value you want.
     double carPrice = 28500.00;
     double truckPrice = 34900.00;
     double lowestPrice = Math.min(carPrice, truckPrice);
@@ -67,8 +67,7 @@ public class MathApp {
     System.out.println("A random number between zero and one is " + randomNumber + ".");
 
 // Question 8:
-// Calculate how many minutes are in 24 days, use a variable for each value you
-// calculate with.
+// Calculate how many minutes are in 24 days, use a variable for each value you calculate with.
     int days = 24;
     int hoursPerDay = 24;
     int minutesPerHour = 60;
